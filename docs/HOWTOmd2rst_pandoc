@@ -1,0 +1,3 @@
+Run:  pandoc -f markdown -t rst filename.md
+
+then: pandoc -s -o filename.rst filename.md
