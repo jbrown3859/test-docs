@@ -1,3 +1,5 @@
 Run:  pandoc -f markdown -t rst filename.md
 
 then: pandoc -s -o filename.rst filename.md
+
+or just: pandoc -f markdown -t rst .\filename.md  -s -o .\filename.rst
